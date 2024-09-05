@@ -1,0 +1,17 @@
+print("Welcome to the Python Pizza Deliveries!")
+Size = input("What size Pizza do you want? S, M or L: ")
+
+Scost = "15"
+Mcost = "20"
+Lcost = "25"
+
+if Size == "S":
+    print("cost for small pizza is $15.")
+    Bill = 15
+    Pepperoni = input("Do you want Pepperoni on your Pizza? Y or N: ")
+    if Pepperoni == "Y":
+        print("additional cost $2")
+        Bill+=2
+    extra_cheese = input("Do you want extra cheese? Y or N: ")
+    if extra_cheese == "Y":
+        print("additional cost $1")
